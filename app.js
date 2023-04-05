@@ -1,27 +1,18 @@
 // app.js
 
-// Create a header element
-const header = document.createElement('header');
-header.textContent = 'My Club';
 
-// Create a tab container element
-const tabContainer = document.createElement('div');
-tabContainer.classList.add('tab-container');
+/* Set the width of the side navigation to 250px */
+/* Set the width of the side navigation to 250px and the left margin of the page content to 250px */
+function openNav() {
+    document.getElementById("mySidenav").style.width = "250px";
+    document.getElementById("main").style.marginLeft = "250px";
+  }
+  
+  /* Set the width of the side navigation to 0 and the left margin of the page content to 0 */
+  function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+    document.getElementById("main").style.marginLeft = "0";
+  }
 
-// Create a tab for the schedule
-const scheduleTab = document.createElement('button');
-scheduleTab.textContent = 'Schedule';
-scheduleTab.classList.add('tab');
 
-// Create a tab for the members list
-const membersTab = document.createElement('button');
-membersTab.textContent = 'Members';
-membersTab.classList.add('tab');
 
-// Add the tabs to the tab container
-tabContainer.appendChild(scheduleTab);
-tabContainer.appendChild(membersTab);
-
-// Add the header and tab container to the body of the HTML document
-document.body.appendChild(header);
-document.body.appendChild(tabContainer);
