@@ -1,0 +1,165 @@
+* {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    box-sizing: border-box;
+  }
+
+html, body, div, header {
+    padding: 0px;
+    margin: 0px;
+  }
+
+h1 {
+    text-align: center;
+    font-size: 60px;
+    color: rgb(10, 48, 78);
+    margin: 0px;
+}
+
+h4 {
+    float: top;
+    text-align: right;
+    font-size: 24px;
+    color: rgb(10, 48, 78);
+    margin: 10px;
+    padding-right: 1%;
+    
+}
+
+
+.top-page {
+    /* background-color: rgb(10, 48, 78); */
+    padding-bottom: 15px;
+    padding-top: 15px;
+    margin: 0px;
+    
+  }
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.president {
+    padding: 10px;
+    text-align: center;
+    margin: 10px;
+    
+
+}
+
+.v-pres {
+    padding: 10px;
+    text-align: center;
+    margin: 10px;
+    
+
+}
+
+.treasurer {
+    padding: 10px;
+    text-align: center;
+    margin: 10px;
+    
+
+}
+.Exec-img {
+    display: block;
+    margin: 10px;
+    width: 200px;
+    height: auto;
+    /* float:left;   */
+}
+
+.container2 {
+    /* display: flex; */
+    margin: 100px auto;
+    width: 75%;
+    justify-content: center;
+    align-items: center;
+
+}
+.EventImage1 {
+ width: 40%;
+ justify-content: right;
+ /* position: absolute; */
+ margin-right: 2%;
+ padding: 20px;
+ 
+
+}
+
+
+
+.ssw{
+    position: absolute;
+    top: 11px;
+    left: 10px;
+}
+
+.menuButton-img {
+    margin: 0px;
+    padding: 0px;
+    width: 100px;
+    height: auto;
+    position: absolute;
+    left:0;
+    top:0;
+}
+
+
+ /* The side navigation menu */
+ .sidenav {
+    height: 100%; /* 100% Full-height */
+    width: 0; /* 0 width - change this with JavaScript */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Stay on top */
+    top: 0; /* Stay at the top */
+    left: 0;
+    background-color: #6f6f70; 
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 60px; /* Place content 60px from the top */
+    transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+    
+  }
+  
+  /* The navigation menu links */
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #f9f8f8;
+    display: block;
+    transition: 0.3s;
+    margin: 0px;
+    
+  }
+  
+  /* When you mouse over the navigation links, change their color */
+  .sidenav a:hover {
+    color: #c1bcbca7;
+  }
+  
+  /* Position and style the close button (top right corner) */
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  
+  /* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+  /* #main {
+    transition: margin-left .5s;
+    padding: 20px;
+    margin:0px;
+    float: left;
+  } */
+  
+  /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }

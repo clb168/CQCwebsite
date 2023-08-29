@@ -1,0 +1,145 @@
+/* homepage.css */
+* {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  box-sizing: border-box;
+}
+
+html, body, div, header {
+  padding: 0px;
+  margin: 0px;
+}
+
+
+.Logo-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    height: auto;
+    float:bottom;
+    background-color: rgb(10, 48, 78);  
+    border-radius: 25px;
+}
+
+h4 {
+    float: top;
+    text-align: right;
+    font-size: 24px;
+    /* color: white; */
+    color: rgb(10, 48, 78);
+    margin: 10px;
+    padding-right: 1%;
+}
+
+.top-page {
+  /* background-color: rgb(10, 48, 78); */
+  background-color: white;
+  padding-bottom: 2.3%;
+  padding-top: 0.5%;
+  margin-bottom: 0px;
+  
+}
+
+
+.menuButton-img {
+    margin: 0px;
+    padding: 0px;
+    width: 100px;
+    height: auto;
+    position: absolute;
+    left:0;
+    top:0;
+}
+
+.ssw{
+  position: absolute;
+  top: 11px;
+  left: 10px;
+}
+
+
+.test{
+  /* background: linear-gradient( rgba(255, 255, 255, 0.562), #ffffffe9 ), url(backgroundMissionStatement.png);
+  background-size: 50%; */
+  
+  font-size: 24px;
+  color: rgb(10, 48, 78);
+  padding-top: 15px;
+  padding-left: 10%;
+  padding-right: 10%;
+  text-align: center;
+  margin:0px;
+}
+
+.test h1{
+  margin: 0px;
+  font-size: 24px;
+  color: rgb(10, 48, 78);
+}
+
+.test p{
+  margin: 0px;
+  font-size: 24px;
+  color: rgb(10, 48, 78);
+  padding: 30px;
+}
+
+  
+ /* The side navigation menu */
+.sidenav {
+    height: 100%; /* 100% Full-height */
+    width: 0; /* 0 width - change this with JavaScript */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Stay on top */
+    top: 0; /* Stay at the top */
+    left: 0;
+    background-color: #6f6f70; 
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 60px; /* Place content 60px from the top */
+    transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+    
+  }
+  
+  /* The navigation menu links */
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #f9f8f8;
+    display: block;
+    transition: 0.3s;
+    margin: 0px;
+    
+  }
+  
+  /* When you mouse over the navigation links, change their color */
+  .sidenav a:hover {
+    color: #c1bcbca7;
+  }
+  
+  /* Position and style the close button (top right corner) */
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  
+  /* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+  /* #main {
+    transition: margin-left .5s;
+    padding: 20px;
+    margin:0px;
+    float: left;
+  } */
+  
+  /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
+
+  body {
+    background-color: rgb(255, 255, 255);
+  }
