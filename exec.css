@@ -120,6 +120,11 @@ h4 {
     left: 10px;
 }
 
+.menuButton:hover{
+  cursor: pointer;
+  
+}
+
 .menuButton-img {
     margin: 0px;
     padding: 0px;

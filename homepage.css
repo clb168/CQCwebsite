@@ -40,6 +40,11 @@ h4 {
   
 }
 
+.menuButton:hover{
+  cursor: pointer;
+  
+}
+
 
 .menuButton-img {
     margin: 0px;
