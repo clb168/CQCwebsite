@@ -14,6 +14,12 @@ h1 {
     color: rgb(10, 48, 78);
     margin: 0px;
 }
+h2 {
+    text-align: center;
+    font-size: 40px;
+    color: rgb(10, 48, 78);
+    margin: 0px;
+}
 
 h4 {
     float: top;
