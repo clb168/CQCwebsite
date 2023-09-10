@@ -77,28 +77,34 @@ h4 {
 
 .test h1{
   margin: 0px;
-  font-size: 24px;
+  font-size: 2.5vmax;
   color: rgb(10, 48, 78);
 }
 
 .test p{
   margin: 0px;
-  font-size: 24px;
+  font-size: 2.5vmax;
   color: rgb(10, 48, 78);
-  padding: 30px;
+  padding-top: 15px;
+  padding-right: 15px;
+  padding-left: 15px;
 }
 
   /* Below mission statement */
-  .container {
+.container {
     text-align: center;
-    
-    padding: 20px;
-    margin: 20px;
+    align-items: center;
+
+    /* max-width: 70%; */
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    margin: 6vmin;
     /* border: 1px solid #060000; */
 }
 
 .container h2{
-  font-size: 3vmin;
+  font-size: 4vmin
 }
 
 
@@ -109,6 +115,7 @@ h4 {
     border: 4px solid rgb(10, 48, 78);
     border-radius: 40px;
     vertical-align: middle;
+    text-align: center;
     max-width: auto;
     min-width: auto;
     margin-left: 2%;
@@ -130,23 +137,24 @@ h4 {
     display: inline-block;
     min-width: auto ;
     max-width: auto ;
+    text-align: center;
     
 }
 
 .welcome-box p{
   margin: 0px;
-  font-size: 4vmin;
+  font-size: 8vw;
   color: rgb(10, 48, 78);
   padding: 30px;
 }
 
 .welcome-box img{
-  max-width: 10vmax;
+  max-width: 20vmax;
 }
 
 .event-box li{
   margin: 0px;
-  font-size: 3vmin;
+  font-size: 4vmin;
   color: rgb(10, 48, 78);
   text-align: left;
 }
